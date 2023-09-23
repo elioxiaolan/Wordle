@@ -31,6 +31,16 @@ class ViewController: UIViewController {
      */
     // START YOUR CODE HERE
     // ...
+    keyboardController.didSelectString = handleSelectedString
     // END YOUR CODE HERE
+  }
+    
+  func handleSelectedString(selectedString: String) {
+      let token = DELETE_KEY
+      if selectedString == token {
+          boardController.deleteLastCharacter()
+      } else {
+          boardController.enter(selectedString)
+      }
   }
 }
