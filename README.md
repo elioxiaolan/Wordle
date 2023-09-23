@@ -38,6 +38,9 @@ Here's a walkthrough of Wordle:
 
 Describe any challenges encountered while building the app.
 
+- Not being familiar with version control
+- Have little knowledge in uploading GIF
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
